@@ -12,7 +12,7 @@ gem 'rails', '~> 5.0.6'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
-gem 'pg'
+gem 'pg', '~> 0.18'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -41,7 +41,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-remote'
   gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'database_cleaner'
 end
 
